@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.phadcode.perpustakaanku.RegisterLanjutanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Informasi Personal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0084b4"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Lahir"
+                    android:textColor="#0084b4"/>
+
+                <EditText
+                    android:id="@+id/etTglLahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:background="@drawable/edit_text_blue"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:hint="dd/mm/yy"
+                    android:textSize="18sp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="#424242"
+                    android:minLines="1"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin"
+                    android:textColor="#0084b4"/>
+
+                <Spinner
+                    android:id="@+id/spKelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/edit_text_blue"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:layout_marginBottom="5dp"
+            android:textColor="#0084b4"/>
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_blue"
+            android:hint="Masukan alamat"
+            android:inputType="textCapWords"
+            android:maxLines="2"
+            android:minLines="1"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:textColor="#424242"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. Ponsel"
+            android:layout_marginBottom="5dp"
+            android:textColor="#0084b4"/>
+
+        <EditText
+            android:id="@+id/etNoHP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_blue"
+            android:padding="5dp"
+            android:hint="Masukan nomor "
+            android:inputType="phone"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="#424242"
+            android:minLines="1"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded_blue"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Daftar"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

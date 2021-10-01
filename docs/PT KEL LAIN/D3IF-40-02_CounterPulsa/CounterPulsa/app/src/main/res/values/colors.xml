@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN THEME COLOR -->
+    <color name="mainThemePrimary">#FF3D00</color>
+    <color name="mainThemePrimaryDark">#424242</color>
+    <color name="mainThemeAccent">#E64A19</color>
+    <!-- MAIN THEME COLOR -->
+    <!-- LOGIN THEME COLOR -->
+    <color name="loginThemeWhite">#FFFFFF</color>
+    <color name="loginThemeGrayLight">#f9f9f9</color>
+    <color name="loginThemeWhiteDark">#f0f0f0</color>
+    <color name="loginThemeTextBlack">#424242</color>
+    <color name="loginThemeStartBackground">#0091EA</color>
+    <color name="loginThemeEndBackground">#0288D1</color>
+    <!-- LOGIN THEME COLOR -->
+    <!-- REGISTER THEME COLOR -->
+    <color name="registerThemeStartBackground">#689F38</color>
+    <color name="registerThemeEndBackground">#558B2F</color>
+    <!-- REGISTER THEME COLOR -->
+</resources>

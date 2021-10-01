@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- MAIN BAR. -->
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mainThemePrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemePrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeAccent</item>
+    </style>
+    <!-- LOGIN BAR. -->
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mainThemePrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemePrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeAccent</item>
+    </style>
+    <!-- REGISTER BAR. -->
+    <style name="RegisterTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mainThemePrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemePrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeAccent</item>
+    </style>
+</resources>

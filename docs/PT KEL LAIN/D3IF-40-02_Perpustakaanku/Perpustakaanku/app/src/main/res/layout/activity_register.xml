@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.phadcode.perpustakaanku.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Informasi Akun"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0084b4"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edit_text_blue"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Email"
+                android:textSize="18sp"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#0084b4"
+                android:minLines="1"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_blue"
+                android:inputType="textCapWords"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:hint="Nama"
+                android:textSize="18sp"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#0084b4"
+                android:minLines="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_blue"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Kata Sandi"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#0084b4"
+                android:minLines="1"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/etPasswordUlang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_blue"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:hint="Ulangi Kata Sandi"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#0084b4"
+                android:minLines="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_rounded_blue"
+            android:padding="5dp"
+            android:text="Lanjutkan"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

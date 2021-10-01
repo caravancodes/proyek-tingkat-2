@@ -1,0 +1,68 @@
+- JOB PT2 (JAGO SHOLAT)
+>>>> mobpro.d3if@gmail.com
+1. LOGO JAGO SHOLAT
+2. SEMUA MOCKUP
+3. USER
+   - Sholat 7 waktu (Wajib 5 waktu) + (Sunnah 2 waktu)
+   - Jammah / munfarid
+   - Statistik Penilaian
+     >  Poin Max 1000 point
+     >  Poin Min 0 point
+     >  Poin Netral 500 point
+     >  Setiap Sholat +2 point
+     >  Jamaah +1 point, munfarid 0 point
+     >  Tidak Sholat -1 point
+4. FUNGSI
+  > Lihat Jadwal Sholat + Waktu
+    - Fitur GPS
+    - Waktu sesuai tempat
+  > Arah Kiblat
+    - Kompas
+  > Statistik Ibadah
+    - Menunjukkan Sholat perbulan
+    - Drop Down Menu
+  > Mencatat Ibadah
+    - Waktu Sholat
+      :> Tampilan muncul hanya waktu sholat saat itu, contoh : jika Shubuh, maka tampilan hanya shubuh 
+      :> Skala 24 Jam
+      :> Countdown ke waktu sholat selanjutnya
+      :> Jammah / Munfarid
+  > Panduan
+    - Tutorial Sholat (kalo bisa semua)
+    - Doa Setelah Sholat     
+  > Pengaturan
+    - Edit Profil
+      :> Nama
+    - Background
+4. DATABASE : SQLite Android
+   Table Ibadah
+   - id_perhari
+   - tanggal
+   - shalat
+   - jam
+   - cek_jamaah
+   - cek_shalat
+   - selisi_menit
+   - poin
+
+
+Table Hari
+- Id_hari
+- tanggal
+
+Table Sholat
+- id_sholat
+- shalat
+- jam
+- cek_shalat
+- selisi_menit
+- tanggal
+
+
+
+
+
+
+
+5. REKAYASA PERANGKAT LUNAK (DIAGRAM CLASS, USE CASE, DFD, SRS)
+6. PROSES BISNIS

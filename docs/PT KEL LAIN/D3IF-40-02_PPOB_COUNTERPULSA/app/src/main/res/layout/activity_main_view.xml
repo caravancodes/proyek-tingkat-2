@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.d3ifcool.ppob_counterpulsa.MainView">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/colorMain"
+        app:subtitleTextColor="@color/colorMain"/>
+
+    <TextView
+        android:id="@+id/display_error_networking"
+        android:text="Tidak terhubung ke internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/colorMain"
+        android:background="@color/colorButtonRegistration"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loadFrame">
+
+    </FrameLayout>
+
+</LinearLayout>

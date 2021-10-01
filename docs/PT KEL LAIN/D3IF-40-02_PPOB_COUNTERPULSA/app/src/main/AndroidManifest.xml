@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.d3ifcool.ppob_counterpulsa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/brand"
+        android:roundIcon="@drawable/brand"
+        android:supportsRtl="true">
+        <activity
+            android:name=".PortalView"
+            android:label="@string/app_name"
+            android:theme="@style/withOutActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainView"
+            android:label="@string/app_name"
+            android:theme="@style/withOutActionBar"/>
+        <activity android:name=".PriceOfPayment"
+            android:label="@string/text_upload_proof_of_payment"
+            android:theme="@style/withActionBar"
+            android:parentActivityName=".MainView"
+            tools:targetApi="jelly_bean">
+
+            <meta-data android:name="android.support.PARENT_ACITIVITY"
+                android:value=".MainView"/>
+
+        </activity>
+    </application>
+
+</manifest>

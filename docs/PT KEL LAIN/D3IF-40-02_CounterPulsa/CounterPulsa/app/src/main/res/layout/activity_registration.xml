@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.d3ifcool.counterpulsa.RegistrationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/loginThemeGrayLight">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp"
+            android:paddingBottom="64dp"
+            android:background="@drawable/background_register"
+            android:id="@+id/portalIdentity">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/green"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loginThemeGrayLight"
+                android:text="@string/portal_register"
+                android:textAlignment="center"
+                android:textSize="32sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/loginThemeWhite"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="-32dp"
+            android:layout_below="@id/portalIdentity"
+            android:id="@+id/portalCard">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loginThemeTextBlack"
+                android:text="@string/portal_register_ktp"
+                android:layout_marginTop="16dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/portal_register_ktp_hint"
+                android:id="@+id/register_noktp_field"
+                android:layout_marginBottom="16dp"
+                android:drawableLeft="@mipmap/ic_idcard"
+                android:drawablePadding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loginThemeTextBlack"
+                android:text="@string/portal_register_name" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/portal_register_name_hint"
+                android:id="@+id/register_nama_field"
+                android:layout_marginBottom="16dp"
+                android:drawableLeft="@mipmap/ic_person"
+                android:drawablePadding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loginThemeTextBlack"
+                android:text="@string/portal_register_email" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/portal_register_email_hint"
+                android:id="@+id/register_email_field"
+                android:layout_marginBottom="16dp"
+                android:drawableLeft="@mipmap/ic_email"
+                android:drawablePadding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loginThemeTextBlack"
+                android:text="@string/portal_register_phone" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPhonetic"
+                android:hint="@string/portal_register_phone_hint"
+                android:id="@+id/register_notelp_field"
+                android:layout_marginBottom="16dp"
+                android:drawableLeft="@mipmap/ic_phone"
+                android:drawablePadding="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_register"
+                android:layout_marginBottom="16dp"
+                android:text="@string/portal_register_button"
+                android:id="@+id/registerButton"
+                android:textColor="@color/loginThemeWhite"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/loginThemeWhiteDark"
+            android:layout_below="@id/portalCard"
+            android:layout_marginHorizontal="32dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

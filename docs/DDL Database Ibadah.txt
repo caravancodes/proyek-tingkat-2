@@ -1,0 +1,9 @@
+CREATE TABLE ibadah (
+    id_ibadah  INTEGER      PRIMARY KEY AUTOINCREMENT,
+    tanggal    STRING (30),
+    cek_shalat INT (1),
+    shalat     STRING (15),
+    jam        STRING (15),
+    cek_jamaah INT (1),
+    poin       INT (4) 
+);

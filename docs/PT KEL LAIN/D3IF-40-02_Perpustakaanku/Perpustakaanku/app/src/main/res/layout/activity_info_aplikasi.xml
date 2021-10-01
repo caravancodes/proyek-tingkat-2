@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phadcode.perpustakaanku.InfoAplikasiActivity">
+
+    <LinearLayout
+        android:id="@+id/deskripsitentangkami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="Perpustakaanku"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\'Perpustakaanku\' merupakan aplikasi untuk membantu para penggemar baca dalam hal meminjam buku di perpustakaan. Kami membuat aplikasi ini dalam rangka mengerjakan tugas besar mobile programming dan proyek tingkat II."
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/AhmadDzaky"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toLeftOf="@id/HudioHizari"-->
+        <!--android:src="@drawable/ic_launcher_background"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/nmDzaky"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Ahmad Dzaky A."-->
+        <!--android:textColor="#000"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_below="@id/AhmadDzaky"-->
+        <!--android:layout_toLeftOf="@id/nmHudio"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/nmHudio"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:text="Hudio Hizari"-->
+        <!--android:textColor="#000"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_below="@id/HudioHizari"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/nmPramana"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Pramana Putra B."-->
+        <!--android:textColor="#000"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_below="@id/PramanaPutra"-->
+        <!--android:layout_toRightOf="@id/nmHudio"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/HudioHizari"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:src="@drawable/ic_launcher_background"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/PramanaPutra"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toRightOf="@id/HudioHizari"-->
+        <!--android:src="@drawable/ic_launcher_background"/>-->
+
+    <ImageView
+        android:id="@+id/logoPerpustakaanku"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/image_picture"
+        android:src="@drawable/logo"/>
+
+</RelativeLayout>

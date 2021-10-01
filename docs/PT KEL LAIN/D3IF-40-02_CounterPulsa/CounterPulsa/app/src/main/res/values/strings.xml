@@ -1,0 +1,107 @@
+<resources>
+    <!-- MAIN ACTIVITY -->
+    <string name="main_activity_label">Counter Pulsa</string>
+    <string name="saldo_label">Saldo</string>
+    <string name="saldo_label_out">Pengeluaran Saldo</string>
+    <string name="menu_saldo">Saldo</string>
+    <string name="menu_transaksi">Transaksi</string>
+    <string name="menu_rekap">Rekap</string>
+    <string name="menu_service">Service</string>
+    <string name="menu_akun">Akun</string>
+    <string name="menu_beranda">Beranda</string>
+
+    <string name="menu_new_saldo">Beli</string>
+    <string name="menu_new_saldo_beli">Beli Saldo</string>
+    <string name="saldo_paket">Paket Saldo</string>
+    <string name="menu_bukti_pembayaran">Bukti Pembayaran</string>
+    <string name="upload_bukti_pembayaran">Upload Bukti Pembayaran</string>
+    <string name="pilih_file">Pilih File</string>
+
+    <string-array name="saldo_paket_array">
+        <item>Rp. 50.000</item>
+        <item>Rp. 100.000</item>
+        <item>Rp. 150.000</item>
+    </string-array>
+
+    <string-array name="service_list_array">
+        <item>Rp. 5.000</item>
+        <item>Rp. 10.000</item>
+        <item>Rp. 50.000</item>
+    </string-array>
+    <string name="service_nama_form">Nama Service</string>
+    <string name="service_harga_form">Harga Service</string>
+    <string name="service_status_form">Status Service</string>
+    <string name="simpan_perubahan">Simpan Perubahan</string>
+
+    <string name="transaksi_service">Nominal</string>
+    <string name="transaksi_phone">No HP</string>
+    <string name="transaksi_phone_hint">Masukkan No HP</string>
+    <string name="transaksi_button">Beli</string>
+
+    <string name="rekap_harian">Harian</string>
+    <string name="rekap_bulanan">Bulanan</string>
+
+    <string name="profile_nama">Nama Lengkap</string>
+    <string name="profile_ktp">No KTP</string>
+    <string name="profile_phone">No Telepon</string>
+    <string name="profile_email">E-Mail</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_password">Password</string>
+    <string name="profile_button_edit">Edit Profile</string>
+    <string name="profile_button_simpan">Simpan</string>
+
+    <string name="rekap_item_no_hp">No HP</string>
+    <string name="rekap_item_tanggal">Tanggal Transaksi</string>
+    <string name="rekap_item_waktu">Waktu Transaksi</string>
+    <string name="rekap_item_nama_service">Nama Service</string>
+    <string name="rekap_item_status_transaksi">Status Transaksi</string>
+    <!-- MAIN ACTIVITY -->
+    <!-- LOGIN ACTIVITY -->
+    <string name="portal_login">Portal Login</string>
+    <string name="portal_login_username">Username</string>
+    <string name="portal_login_password">Password</string>
+    <string name="portal_login_username_hint">Masukkan Username</string>
+    <string name="portal_login_password_hint">Masukkan Password</string>
+    <string name="portal_login_button">Login</string>
+    <!-- LOGIN ACTIVITY -->
+    <!-- REGISTER ACTIVITY -->
+    <string name="portal_register">Portal Register</string>
+    <string name="portal_register_ktp">No KTP</string>
+    <string name="portal_register_name">Nama Lengkap</string>
+    <string name="portal_register_email">E-Mail</string>
+    <string name="portal_register_phone">No Telepon</string>
+    <string name="portal_register_ktp_hint">Masukkan No KTP</string>
+    <string name="portal_register_name_hint">Masukkan Nama Lengkap</string>
+    <string name="portal_register_email_hint">Masukkan E-Mail</string>
+    <string name="portal_register_phone_hint">Masukkan No Telepon</string>
+    <string name="portal_register_button">Register</string>
+    <!-- REGISTER ACTIVITY -->
+    <!-- COMPONENT FOR JAVASTRING -->
+    <string name="label_empty"></string>
+    <string name="label_binding_or_1"> | </string>
+    <string name="label_binding_slash_1">/</string>
+
+    <string name="label_saldo_tagihan">Tagihan : </string>
+    <string name="label_saldo_paket">Paket : </string>
+    <string name="label_saldo_status">Status : </string>
+    <string name="label_saldo_pulsa">Pulsa</string>
+
+    <string name="label_service_status_1">Status : Aktif</string>
+    <string name="label_service_status_2">Status : Tidak Aktif</string>
+
+    <string name="label_transaksi_status_1">Pending</string>
+    <string name="label_transaksi_status_2">Succes</string>
+    <string name="label_transaksi_status_3">Error</string>
+
+    <string name="label_rekap_tanggal">Tanggal : </string>
+
+    <string name="label_msg_tagihan_saldo">Mengirim Permintaan, Silahkan Cek Tagihan Anda</string>
+    <string name="label_msg_logout_1">Berhasil Logout</string>
+    <string name="label_msg_login_1">Berhasil Login</string>
+    <string name="label_msg_profile_1">Berhasil Menyimpan Profile</string>
+    <string name="label_msg_service_1">Berhasil Memperbaharui Service</string>
+    <string name="label_msg_registrer_1">Registrasi Berhasil, Cek Email Anda</string>
+    <string name="label_msg_transaksi_1">Berhasil Melakukan Transaksi</string>
+    <string name="label_msg_saldo_bukti_1">Berhasil Mengupload Bukti Pembayaran</string>
+    <!-- COMPONENT FOR JAVASTRING -->
+</resources>

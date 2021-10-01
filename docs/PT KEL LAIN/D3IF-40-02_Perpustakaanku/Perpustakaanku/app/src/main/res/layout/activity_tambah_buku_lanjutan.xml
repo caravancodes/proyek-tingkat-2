@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phadcode.perpustakaanku.TambahBukuLanjutanActivity"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Penulis"
+                    android:textColor="#0084b4"/>
+
+                <EditText
+                    android:id="@+id/etPenulis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_blue"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:hint="Masukan Penulis"
+                    android:textSize="18sp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="#424242"
+                    android:inputType="textCapWords"
+                    android:minLines="1"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Penulis"
+                    android:textColor="#0084b4"/>
+
+                <EditText
+                    android:id="@+id/etPenerbit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_blue"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:hint="Masukan Penerbit"
+                    android:textSize="18sp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="#424242"
+                    android:inputType="textCapWords"
+                    android:minLines="1"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Buku"
+                    android:textColor="#0084b4"/>
+
+                <EditText
+                    android:id="@+id/etJumlahBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_blue"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:hint="Masukan Jumlah"
+                    android:textSize="18sp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="#424242"
+                    android:minLines="1"
+                    android:maxLines="1"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Pinjam"
+                    android:textColor="#0084b4"/>
+
+                <Spinner
+                    android:id="@+id/spJenisPinjam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/edit_text_blue"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_rounded_blue"
+            android:padding="5dp"
+            android:text="Tambah Buku"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

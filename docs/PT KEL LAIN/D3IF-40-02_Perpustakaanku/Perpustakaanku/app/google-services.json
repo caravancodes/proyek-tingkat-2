@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341611261313",
+    "firebase_url": "https://perpustakaanku-1523444369159.firebaseio.com",
+    "project_id": "perpustakaanku-1523444369159",
+    "storage_bucket": "perpustakaanku-1523444369159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341611261313:android:76817c6908a7ad20",
+        "android_client_info": {
+          "package_name": "com.phadcode.perpustakaanku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341611261313-7n35vq8ul53nbvks0idcc1jbui7or01s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvDhPLrA6h82koo4-64amuQ68hurNxKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

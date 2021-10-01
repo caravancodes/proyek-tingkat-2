@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phadcode.perpustakaanku">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMWngA0O5I6be3i1VhfmMnoIml9oJJxcw" />
+
+        <service
+            android:name=".helper.DataFetcherFromJSON"
+            android:icon="@mipmap/logo_round"
+            android:label="Perpustakaanku" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".RegisterLanjutanActivity"
+            android:parentActivityName=".RegisterActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ProfilActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".BookListActivity"
+            android:parentActivityName=".ProfilActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".PopBookActivity"
+            android:parentActivityName=".BookListActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".BuatPerpusActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".BuatPerpusLanjutanActivity"
+            android:parentActivityName=".BuatPerpusActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".KelolaPerpusActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".KelolaBukuActivity"
+            android:parentActivityName=".KelolaPerpusActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".TambahBukuActivity"
+            android:parentActivityName=".KelolaBukuActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".TambahBukuLanjutanActivity"
+            android:parentActivityName=".TambahBukuActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PemesananSayaActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".KelolaMemberActivity"
+            android:parentActivityName=".KelolaPerpusActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".InfoAplikasiActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+        <group android:checkableBehavior="single">
+                <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24px"
+            android:title="Rumah" />
+
+
+        </group>
+
+        <item
+            android:id="@+id/kategori"
+            android:title="Kategori"
+            >
+            <menu >
+                <item
+                    android:id="@+id/nav_militer"
+                    android:icon="@drawable/ic_captain"
+                    android:title="@string/Militer" />
+
+                <item
+                    android:id="@+id/nav_arsitek"
+                    android:icon="@drawable/ic_engineer"
+                    android:title="@string/Arsitek" />
+                <item
+                android:id="@+id/nav_pendidikan"
+                android:icon="@drawable/ic_atom"
+                android:title="@string/Pendidikan" />
+                <item
+                    android:id="@+id/nav_seniman"
+                    android:icon="@drawable/ic_seniman"
+                    android:title="@string/Seniman" />
+
+                <item
+                    android:id="@+id/nav_olahraga"
+                    android:icon="@drawable/ic_soccer"
+                    android:title="@string/Olahraga" />
+
+
+                <item
+                android:id="@+id/nav_agama"
+                android:icon="@drawable/ic_mosque"
+                android:title="@string/Agama" />
+
+
+            </menu>
+
+        </item>
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/ic_feedback_black_24px"
+        android:title="Kritik dan Saran" />
+
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/announcement_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/default_image"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/announcement_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:text="@string/quick_access_new_balance"
+        android:textColor="@color/colorButtonLogin"/>
+
+    <TextView
+        android:id="@+id/announcement_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:paddingBottom="8dp"
+        android:text="@string/quick_access_new_balance"
+        android:textColor="@color/colorAccent"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/announcement_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/quick_access_new_balance"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>
